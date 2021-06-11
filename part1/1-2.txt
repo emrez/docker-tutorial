@@ -1,0 +1,5 @@
+[I] ⋊> /c/c/U/e/D/G/d/part1 on main ◦ docker ps -as                                                                                                                                                      02:18:21
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES     SIZE
+
+[I] ⋊> /c/c/U/e/D/G/d/part1 on main ◦ docker images                                                                                                                                                      02:18:30
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE

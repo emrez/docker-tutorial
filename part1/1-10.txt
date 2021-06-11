@@ -1,0 +1,7 @@
+docker run -p 127.0.0.1:80:8080 web-server
+
+
+{
+message: "You connected to the following path: /emre",
+path: "/emre"
+}

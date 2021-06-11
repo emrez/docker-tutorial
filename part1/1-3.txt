@@ -1,0 +1,8 @@
+PS C:\Users\emre> docker exec -it 5 bash
+root@5eff147e420b:/usr/src/app# tail -f text.log
+2021-06-10 23:22:33 +0000 UTC
+2021-06-10 23:22:35 +0000 UTC
+2021-06-10 23:22:37 +0000 UTC
+2021-06-10 23:22:39 +0000 UTC
+2021-06-10 23:22:41 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'

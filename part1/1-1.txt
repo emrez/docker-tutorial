@@ -1,0 +1,5 @@
+[I] ⋊> /c/c/U/e/D/G/d/part1 on main ◦ docker ps -a                                                              02:16:55
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS                     PORTS     NAMES
+2a24e58e400c   nginx     "/docker-entrypoint.…"   26 seconds ago   Exited (0) 4 seconds ago             vigilant_mcnulty
+a8e222078d58   nginx     "/docker-entrypoint.…"   30 seconds ago   Exited (0) 4 seconds ago             dazzling_wilbur
+de66fd8a415a   nginx     "/docker-entrypoint.…"   37 seconds ago   Up 34 seconds              80/tcp    funny_cori

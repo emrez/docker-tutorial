@@ -1,0 +1,4 @@
+I was not able to solve this problem.
+
+command was as follows:
+docker run --volume "$PWD/text.log:/text.log" devopsdockeruh/simple-web-service
