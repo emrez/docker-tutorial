@@ -1,0 +1,26 @@
+version: "3.8"
+
+# this works because i have the images are built already
+# services:
+#   backend:
+#     image: b:1-14
+#     ports:
+#       - 8080:8080
+#   frontend:
+#     image: f:1-14
+#     ports:
+#       - 5000:5000
+
+services:
+  backend:
+    build:
+      context: ./example-backend
+      dockerfile: Dockerfile.back
+    ports:
+      - 8080:8080
+  frontend:
+    build:
+      context: ./example-frontend
+      dockerfile: Dockerfile.front
+    ports:
+      - 5000:5000
