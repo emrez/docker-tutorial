@@ -1,0 +1,5 @@
+I added environment variables to services
+      - WAITH_HOSTS=postgres-service:5432, backend:8080, frontend:5000
+      - WAIT_HOSTS_TIMEOUT=300
+      - WAIT_SLEEP_INTERVAL=30
+      - WAIT_HOST_CONNECT_TIMEOUT=30

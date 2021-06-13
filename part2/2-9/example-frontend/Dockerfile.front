@@ -1,0 +1,33 @@
+
+FROM ubuntu:latest
+
+WORKDIR /usr/src/app
+
+RUN apt-get update 
+
+RUN apt-get install -y curl
+
+RUN curl -sL https://deb.nodesource.com/setup_14.x | bash
+
+RUN apt-get install -y nodejs
+
+RUN node -v && npm -v
+
+COPY . .
+
+ARG PORT
+ARG REACT_APP_BACKEND_URL
+
+ENV PORT=${PORT}
+ENV REACT_APP_BACKEND_URL=${REACT_APP_BACKEND_URL}
+
+RUN npm install
+
+RUN npm run build
+
+RUN npm install -g serve
+
+RUN echo "Running ${REACT_APP_BACKEND_URL}"
+
+EXPOSE ${PORT}
+CMD serve -s -l ${PORT}  build
